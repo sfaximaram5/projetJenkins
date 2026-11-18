@@ -3,7 +3,7 @@ pipeline {
   options { timestamps() }
 
   environment {
-    IMAGE = 'TON_USER_DOCKERHUB/monapp'
+    IMAGE = 'maram5/monapp'
     TAG   = "build-${env.BUILD_NUMBER}"
   }
 
