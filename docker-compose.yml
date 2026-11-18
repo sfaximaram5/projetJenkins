@@ -1,6 +1,6 @@
 services:
   web:
-    image: TON_USER_DOCKERHUB/monapp:latest
+    image: maram5/monapp:latest
     ports:
       - "8080:80"
     restart: unless-stopped
